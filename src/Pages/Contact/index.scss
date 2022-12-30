@@ -1,0 +1,66 @@
+.mainContac {
+
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+
+    .contac {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 100px;
+
+        h4 {
+            font-weight: 200px;
+            font-size: 40px;
+            line-height: 84px;
+        }
+
+        p {
+
+            font-size: 20px;
+            line-height: 84px;
+        }
+
+        .inp {
+            background-color: #f1f1f1;
+            opacity: 0.7;
+            border: none;
+            padding: 15px 32px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            z-index: 1;
+        }
+
+        #btn {
+            background-color: #e77b41d1;
+            border: 0;
+            border-radius: 56px;
+            color: #fff;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 600;
+            outline: 0;
+            padding: 16px 100px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: all .3s;
+            user-select: none;
+            cursor: pointer;
+        }
+    }
+}
